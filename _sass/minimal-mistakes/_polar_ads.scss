@@ -1,0 +1,38 @@
+.polar-ads-container{
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background: #ffffff;
+  z-index: 999;
+  border: 1px solid #e7e7e7;
+  .sidebar{
+    background: #ffffff;
+    width: 333px;
+  }
+
+  .navigation{
+    border-left: 0;
+    padding-left: 5px;
+    z-index: 1011;
+    width: 333px;
+    background-color: #ffffff;
+    min-height: 30px;
+    position: fixed;
+    top: 0px;
+    //width: 0px;
+    right: 0px;
+    border-left: 0;
+    border-bottom: 1px solid #e7e7e7;
+    //border-left: 2px solid #e7e7e7;
+    //transition: width 1s;
+  }
+
+  .container{
+    padding: 15px 0;
+    border: 1px solid #e7e7e7;
+    border-left: 0;
+    border-right: 0;
+  }
+}
