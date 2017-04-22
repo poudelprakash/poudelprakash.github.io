@@ -1,13 +1,13 @@
 //  Polar Ads
-var $adHolder = $('.oama-ad-holder');
-var oamaUrl = 'https://oama.herokuapp.com/api/v1/ads/';
-$adHolder.each(function(index, el) {
-  var adUrl = oamaUrl + el.dataset.uuid;
-  $(document).ready(function() {
+$(document).ready(function () {
+  var $adHolder = $('.oama-ad-holder');
+  var oamaUrl = 'https://oama.herokuapp.com/api/v1/ads/';
+  $adHolder.each(function(index, el) {
+    var adUrl = oamaUrl + el.dataset.uuid;
     $.ajax({
       url: adUrl,
       type: "GET"
-    }).then(function(response) {
+    }).then(function (response) {
       var $image = $('<img>', {
         src: response.image,
         width: response.dimensions.width,
