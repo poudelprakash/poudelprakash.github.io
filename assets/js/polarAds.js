@@ -36,7 +36,17 @@ $(document).ready(function () {
         $link = $('<a>', {
           href: response.url
         });
-        $link.click(function () {
+        $link.click(function (e) {
+          e.preventDefault();
+          $('<iframe>', {
+            src: $(this).attr('href'),
+            frameborder: 0,
+            scrolling: 'yes'
+          }).css({
+            width: '100%',
+            minHeight: '668px',
+          }).appendTo($('#polar-iframe-holder'));
+
           $('.polar-ads-container').fadeIn(1000);
         })
       } else {
