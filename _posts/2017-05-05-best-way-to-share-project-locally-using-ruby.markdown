@@ -8,6 +8,7 @@ comments: true
 share: true
 date: 2017-05-05T23:24:12+05:45
 ---
+{% include toc %}
 
 Today we are going to talk about how we can share our code with temporary team members without sharing proper github/bitbucket access.
 
