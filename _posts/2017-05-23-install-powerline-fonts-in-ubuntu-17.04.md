@@ -9,9 +9,10 @@ share: true
 date: 2017-05-23T23:24:12+05:45
 ---
 This post is by no means meant to be detailed instruction on zprezto or powerline. It is short note that will help you install fonts required to make powerline theme work with prezto. It also does not explain why something works and something doesn't.
-{: .notice--warning}
+{: .notice--info}
 
 New version of ubuntu, fresh install = Awesome.
+
 Setup you machine with all the language and tools you need = Cumbersome.
 
 Same story every time! Real panic begins when you can't get some damn small thing running and you can't remember what you did rights last time.
@@ -40,3 +41,7 @@ fc-cache -vf /usr/share/fonts/
 mv 10-powerline-symbols.conf /etc/fonts/conf.d/
 ```
 Then I opened a new terminal and it was working. 
+
+References:
+1. <https://www.tecmint.com/powerline-adds-powerful-statuslines-and-prompts-to-vim-and-bash/>
+2. <https://powerline.readthedocs.io/en/latest/installation/linux.html#fonts-installation>
