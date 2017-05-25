@@ -10,9 +10,9 @@ date: 2016-07-04T07:51:29+05:45
 
 ---
 
-For past 2 months I have been actively developing emberjs addon. As we near the release of this addon, it is time for cross-browser testing(only time developer tests runs his app in Internet Explorer(IE)).
+For past 2 months I have been actively developing emberjs addon. As we near the release of this add-on, it is time for cross-browser testing(only time developer tests runs his app in Internet Explorer(IE)).
 
-First feature we noticed that was not working in IE was search feature. It depended on `.includes()` function of js and we realised `.includes` was not suppoerted in IE.
+First feature we noticed that was not working in IE was search feature. It depended on `.includes()` function of js and we realised `.includes` was not supported in IE.
 
 I had to write substitute of this function. This function basically did 2 things:
 
@@ -41,7 +41,7 @@ includes([1,2,3],'a') //=> false
 includes("abc",'a') //=> true
 includes("abc",'e') //=> false
 ```
-Since this worked, I began replacing `.includes` with my own `includes` function and then realised in some places I had wanted negative of .inludes(). I also wrote another function that would do exactly opposite and named it `doesNotInclude`. The function looked like this:
+Since this worked, I began replacing `.includes` with my own `includes` function and then realised in some places I had wanted negative of .includes(). I also wrote another function that would do exactly opposite and named it `doesNotInclude`. The function looked like this:
 
 ```js
 function doesNotInclude(container, value) {
