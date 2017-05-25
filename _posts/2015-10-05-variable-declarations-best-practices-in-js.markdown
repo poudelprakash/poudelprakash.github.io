@@ -84,7 +84,7 @@ console.log(b); // ReferenceError
 ```
 
 
-Read more about references: [js best practices)](https://github.com/airbnb/javascript#references){: rel="nofollow"}{:target="_blank"}
+Read more about references: [js best practices](https://github.com/airbnb/javascript#references){: rel="nofollow"}{:target="_blank"}
 
 ## Use the literal syntax for array creation
 
@@ -97,7 +97,7 @@ const items = [];
 
 ```
 
-Read more about it: [js array best practices)](https://github.com/airbnb/javascript#arrays){: rel="nofollow"}{:target="_blank"}
+Read more about it: [js array best practices](https://github.com/airbnb/javascript#arrays){: rel="nofollow"}{:target="_blank"}
 
 ## Use the literal syntax for object creation.
 

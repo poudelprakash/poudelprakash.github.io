@@ -40,7 +40,9 @@ fc-cache -vf /usr/share/fonts/
 # Install the fontconfig file
 mv 10-powerline-symbols.conf /etc/fonts/conf.d/
 ```
-Then I opened a new terminal and it was working. 
+Then I opened a new terminal and it was working.
+
+Did this work for you? Feel free to leave your views in comment box below.
 
 References:
 1. <https://www.tecmint.com/powerline-adds-powerful-statuslines-and-prompts-to-vim-and-bash/>

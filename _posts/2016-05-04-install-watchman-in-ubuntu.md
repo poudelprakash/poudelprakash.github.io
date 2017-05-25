@@ -12,7 +12,7 @@ date: 2016-03-19T08:26:29+05:45
 ## Step 1: Install dependent files
 
 ```bash
-$ sudo apt-get install automake autoconf python-dev
+$ sudo apt-get install automake autoconf python-dev build-essential
 ```
 
 ## Step 2: Install watchman
