@@ -13,7 +13,7 @@ date: 2017-05-05T23:24:12+05:45
 This blog post assumes that you are using git as your version control tool.
 {: .notice--info}
 
-**TOO BUSY JUST SHOW ME YOUR THE CODE**
+**TOO BUSY JUST SHOW ME THE CODE**
 
 For Sharer
 ```
@@ -34,7 +34,7 @@ Let's find out how this process can be simplified:
 
 ## Compress and share
 
-It was pretty easy in the past to compress and share code folder with your peer, but with advent of Single Page Applications, our apps' folder is usually cluttered with `node_modules` and `bower_components`. Compressing these folders could take more than 10-15 minutes depending on the size of app.
+It was pretty easy in the past to compress and share project's folder with your peer, but with advent of Single Page Applications, our apps' folder is usually cluttered with `node_modules` and `bower_components`. Compressing these folders could take more than 10-15 minutes depending on the size of app.
 
 In several occasions, we have removed those folders before compressing. Running `npm install` and `bower install` after sharing your code is another pain.
 
@@ -55,9 +55,9 @@ ruby -run -e httpd .git -p 8080 # serve you projects git folder over http on por
 git update-server-info
 ```
 
-Moving into you project folder with `cd` command is something I probably don't need to explain.
+**What's happening here?**
 
-In second line, I am using ruby command to share my `.git` folder. This is the crucial part of sharing my project. You can also use python or node to serve `.git` folder.
+After moving into the project which is to be shared, I am using ruby command to share it's `.git` folder (`.git` is the folder that contains all the information that is necessary for project in version control). You can also use python or node to serve `.git` folder, snippets below:
 
 #### Node
 
@@ -76,7 +76,7 @@ You can also use your favourite python code to serve folder.
 cd .git && python -m SimpleHTTPServer
 ```
 
-`git update-server-info` may be new command to even seasoned git users. It adds little extra information to our Git repository that a more complete Git server would handle for us. More technical details can be found in the [official
+Last command, `git update-server-info` may be new command to even seasoned git users. It adds little extra information to our Git repository that a more complete Git server would handle for us. More technical details can be found in the [official
 documentation](https://git-scm.com/docs/git-update-server-info)
 {: .notice--info}
 
@@ -84,7 +84,7 @@ Since we are done serving our code with one of our favourite language and added 
 
 ### Code for receiver
 
-Receiver can now clone your repo
+Receiver can now clone your repo:
 
 ```
 git clone http://10.10.11.17:8080 ./your-awesome-project-cloned
@@ -107,7 +107,7 @@ You may want to look at this article for complete access including push:
 [Git daemon to quickly share git repo](http://railsware
 .com/blog/2013/09/19/taming-the-git-daemon-to-quickly-share-git-repository/){: rel="nofollow"}{:target="_blank"}
 
-Have you tried this before? How do you share your code with temporary project member. Please feel free to comment below:
+Have you tried this before? How do you share your code with non-core project member. Please feel free to comment below:
 
 References:
 1. [local clone over http](http://blog.testdouble.com/posts/2017-02-01-local-clone-over-http.html){: rel="nofollow"}{:target="_blank"}
