@@ -147,7 +147,9 @@ To solve this problem I changed the above scipt as below:
 
 After adding above script once in your page you can just add `<div class="chitika-ads-container"></div>` on any place you want to display ads.
 
-In case you like this script but want to fix ad's width of any particular ad; you can wrap `<div class="chitika-ads-container"></div>` with fixed width div as: `<div style="width: 300px;"><div class="chitika-ads-container"></div></div>`
+In case you like this script but want to fix ad's width of any particular ad; you can wrap `<div class="chitika-ads-container"></div>` with fixed width `div`. For eg: `<div style="width: 300px;"><div class="chitika-ads-container"></div></div>`
+
+I am planning to develop this into a js plugin so that I can keep it updated anytime something changes. Please let me know your view. Did you find this useful?
 
 References:
 
