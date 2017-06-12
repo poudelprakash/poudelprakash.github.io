@@ -31,7 +31,7 @@ But I found it quite strange. It's already been a year that I have been coding r
 ActiveRecord::Migration.check_pending!
 ```
 
-I searched what would check_pending! do and found this bit of code in [rails repo](rails-active-record-404).
+I searched what would check_pending! do and found this bit of code in [rails repo][rails active record 404].
 
 ```ruby
 # File https://github.com/rails/rails/blob/4-0-stable/activerecord/lib/active_record/migration.rb, line 382
@@ -49,7 +49,7 @@ in `block in method_missing': undefined method `maintain_test_schema!' for
 #<ActiveRecord::Migration:0x0000000374fc40> (NoMethodError)
 ```
 
-`ActiveRecord::Migration.maintain_test_schema!` doesn't exist in rails 4.0.4, this explains why I had not encountered this condition previously. This also explains following code in [rspec](rspec-spec-helper.rb.tt):
+`ActiveRecord::Migration.maintain_test_schema!` doesn't exist in rails 4.0.4, this explains why I had not encountered this condition previously. This also explains following code in [rspec][rspec spec helper template]:
 
 ```ruby
 # https://github.com/rspec/rspec-rails/blob/b8680f98858598b5423e13765676773fe587288b/lib/generators/rspec/install/templates/spec/spec_helper.rb.tt, line 15
@@ -67,12 +67,12 @@ ActiveRecord::Migration.check_pending! if defined?(ActiveRecord::Migration)
 <% end -%>
 ```
 
-It would be great to have migrations maintained automatically. Thus I ended up using the following code as suggested [here](stack-overflow-migration-404).
+It would be great to have migrations maintained automatically. Thus I ended up using the following code as suggested [here][stack overflow migration 404].
 
 ```ruby
 ActiveRecord::Migrator.migrate(File.join(Rails.root, 'db/migrate'))
 ```
 
-[rspec-spec-helper.rb.tt]: https://github.com/rspec/rspec-rails/blob/b8680f98858598b5423e13765676773fe587288b/lib/generators/rspec/install/templates/spec/spec_helper.rb.tt
-[rails-active-record-404]: https://github.com/rails/rails/blob/4-0-stable/activerecord/lib/active_record/migration.rb
-[stack-overflow-migration-404]: http://stackoverflow.com/a/22321132/4096120
+[rspec spec helper template]: https://github.com/rspec/rspec-rails/blob/b8680f98858598b5423e13765676773fe587288b/lib/generators/rspec/install/templates/spec/spec_helper.rb.tt
+[rails active record 404]: https://github.com/rails/rails/blob/4-0-stable/activerecord/lib/active_record/migration.rb
+[stack overflow migration 404]: https://stackoverflow.com/a/22321132/4096120

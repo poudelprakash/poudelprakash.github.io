@@ -63,7 +63,7 @@ References:
 2. [how to upgrade node using npm][upgrade node using npm]
 3. [ubuntu forum answer][how to upgrade node for non sudo guys]
 
-[how to install nodejs in ubuntu]: {{ site.url }}/node/setup-nodejs-in-ubuntu/
+[how to install nodejs in ubuntu]: {{ site.url }}/nodejs/setup-nodejs-in-ubuntu/
 [david walsh blog]: https://davidwalsh.name/upgrade-nodejs
 [upgrade node using npm]: http://theholmesoffice.com/node-js-fundamentals-how-to-upgrade-the-node-js-version/
 [how to upgrade node for non sudo guys]: http://askubuntu.com/a/645119
