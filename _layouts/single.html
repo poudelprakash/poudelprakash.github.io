@@ -8,6 +8,11 @@ layout: default
   {% include page__hero_video.html %}
 {% endif %}
 
+<!-- chitika ads -->
+<div align="center">
+  <div class="chitika-ads-container"></div>
+</div>
+
 {% if page.url != "/" and site.breadcrumbs %}
   {% unless paginator %}
     {% include breadcrumbs.html %}
@@ -48,6 +53,11 @@ layout: default
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
         {% endif %}
+
+        <!-- chitika ads -->
+        <div align="center" style="margin-top: 20px; margin-bottom: -25px;">
+          <div class="chitika-ads-container"></div>
+        </div>
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
