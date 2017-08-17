@@ -11,7 +11,7 @@ last_modified_at: 2017-09-17T23:24:12+05:45
 ---
 
 It's possible to define regex patterns to automatically ignore certain lines in rubocop.yml,
-so you could choose to ignore all lines starting with a # character:
+so you could choose to ignore all lines starting with a `#` character:
 
 ```ruby
 Metrics/LineLength:
