@@ -1,6 +1,5 @@
 ---
 title: How to make rubocop ignore comments using regex
-modified:
 categories: ruby
 excerpt: How to make rubocop ignore comments using regex
 tags: rubocop
