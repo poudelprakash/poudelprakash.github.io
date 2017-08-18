@@ -48,8 +48,7 @@ class File < ActiveRecord::Base
   enum :type [ :transfer, :new], _suffix: true, _prefix: true #providing boolean value
 end
 ```
-How this works is similar to above except defined words will come at first in helper methods
-(that is simply the difference of prefix and suffix)
+How this works is similar to above except defined words will come at first in helper methods.
 
 Now our helper methods would look like:
 
