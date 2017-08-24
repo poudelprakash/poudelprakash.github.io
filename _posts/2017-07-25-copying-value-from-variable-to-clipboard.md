@@ -1,7 +1,7 @@
 ---
 title: How to copy value from variable to clipboard
 categories: javascript
-excerpt: How to copy value from variable to clipboard
+excerpt: How to copy to clipboard using jquery
 tags: jquery
 comments: true
 share: true
