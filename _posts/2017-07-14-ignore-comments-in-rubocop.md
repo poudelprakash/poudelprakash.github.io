@@ -2,7 +2,8 @@
 title: How to make rubocop ignore comments using regex
 categories: ruby
 excerpt: How to make rubocop ignore comments using regex
-tags: rubocop
+tags:
+  - rubocop
 comments: true
 share: true
 date: 2017-07-14T23:24:12+05:45

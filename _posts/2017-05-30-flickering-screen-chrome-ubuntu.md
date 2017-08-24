@@ -15,9 +15,8 @@ At first, I thought it was problem in new os but soon came to notice that it occ
 If you also happen to bump into such issue after installing chrome in freshly setup ubuntu machine, You can solve this problem by disabling hardware acceleration for your browser.
 
 You can follow following steps to disable hardware acceleration:
-Settings > Advance Settings > System > uncheck the hardware acceleration
 
-```
+Settings > Advance Settings > System > uncheck the hardware acceleration.
 
 References:
 
