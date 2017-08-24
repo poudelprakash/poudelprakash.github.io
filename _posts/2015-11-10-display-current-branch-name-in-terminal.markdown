@@ -1,6 +1,5 @@
 ---
 title: Display Current Branch Name in Terminal
-modified:
 categories: linux
 excerpt: Display Current Branch Name in Terminal
 tags:

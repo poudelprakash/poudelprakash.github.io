@@ -1,6 +1,5 @@
 ---
 title: Pending Migrations in Tests in Rails 4.0.4
-modified:
 categories: rails
 excerpt: How to automatically run pending migrations while running rspec in all versions of rails
 tags:

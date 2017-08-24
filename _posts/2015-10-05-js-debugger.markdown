@@ -1,7 +1,6 @@
 ---
 layout: single
 title: Js Debugger
-modified:
 categories: javascript
 excerpt: debugger is a great tool in js that provides breakpoint in your code so that you can easily debug your code
 tags:

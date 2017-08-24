@@ -1,6 +1,5 @@
 ---
 title: Binary to Octal Evaluation
-modified:
 categories: ruby
 excerpt: binary to octal evaluation
 tags:

@@ -1,7 +1,6 @@
 ---
 layout: single
 title: Few Keyboard Shortcuts for Terminal
-modified:
 categories: linux
 excerpt: few terminal shortcuts
 tags:

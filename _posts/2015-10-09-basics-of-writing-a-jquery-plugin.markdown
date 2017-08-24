@@ -1,7 +1,6 @@
 ---
 layout: single
 title: Basics of Writing a Jquery Plugin
-modified:
 categories: javascript
 excerpt: basics of developing your own jquery plugin
 tags: 'js best practices'

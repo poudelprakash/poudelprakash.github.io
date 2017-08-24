@@ -1,7 +1,6 @@
 ---
 layout: single
 title: "Ping Pong Pair Programming"
-modified:
 categories:
 excerpt: An ExtremeProgrammingPractice in which two engineers participate in one development effort at one workstation. Each member performs the action the other is not currently doing.
 tags:

@@ -1,6 +1,5 @@
 ---
 title: "Four Types of Duplication in Source Code"
-modified:
 categories:
 excerpt: "We all know about DRY but time and again we can find duplication in our code. Here we talk about four types of duplication: imposed, inadvertent, impatient and interdeveloper."
 tags:

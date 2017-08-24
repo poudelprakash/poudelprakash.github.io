@@ -1,12 +1,12 @@
 ---
 title: Install powerline fonts in ubuntu 17.04
-modified:
 categories: linux
 excerpt: Quickly install powerline fonts on ubuntu 17.04.
 tags:
 comments: true
 share: true
 date: 2017-05-23T23:24:12+05:45
+last_modified_at:
 ---
 This post is by no means meant to be detailed instruction on zprezto or powerline. It is short note that will help you install fonts required to make powerline theme work with prezto. It also does not explain why something works and something doesn't.
 {: .notice--info}

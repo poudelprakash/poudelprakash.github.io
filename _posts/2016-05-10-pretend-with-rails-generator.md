@@ -1,13 +1,12 @@
 ---
 title: Pretend with rails generator
-modified:
 categories: rails 
 excerpt: how to pretend rails generate to see if generated files will conflict
 tags:
 comments: true
 share: true
 date: 2016-05-10T07:51:29+05:45
-
+last_modified_at:
 ---
 
 The rails generate command will be used many times during the lifetime of a project. Sometimes the generate may create or modify multiple files that you may not want to. If you need to find out what files will be created/modified, you can run a pretend generation. Here let's try generating model that will conflict with already created model:

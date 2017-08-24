@@ -1,6 +1,5 @@
 ---
 title: Comparison Operators
-modified:
 categories: javascript
 excerpt: comparison operators in js
 tags:

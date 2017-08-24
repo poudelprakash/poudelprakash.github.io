@@ -1,13 +1,12 @@
 ---
 title: Scrapping kaymu products using NOKOGIRI
-modified:
 categories: ruby
 excerpt: scrapping kaymu products
 tags:
 comments: true
 share: true
 date: 2016-06-18T07:51:29+05:45
-
+last_modified_at:
 ---
 
 It's saturday morning and I have nothing interesting to do. So I thought of scraping Kaymu and list out products and their price using ruby. I targeted raspberry pi for this exercise.

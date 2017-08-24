@@ -1,7 +1,6 @@
 ---
 layout: single
 title: List Node Packages Installed
-modified:
 categories: nodejs
 excerpt: listing node packages installed in system
 tags:

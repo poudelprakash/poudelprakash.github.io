@@ -1,7 +1,6 @@
 ---
 layout: single
 title: "Estimating as a Programmer"
-modified:
 categories:
 excerpt: A must read if you have doubt about your estimating skills.
 tags:

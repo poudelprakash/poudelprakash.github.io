@@ -1,6 +1,5 @@
 ---
 title: Making Rbenv Work With Zsh
-modified:
 categories:
 excerpt: Making Rbenv Work With Zsh
 tags:

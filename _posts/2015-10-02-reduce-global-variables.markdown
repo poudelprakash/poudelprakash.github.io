@@ -1,6 +1,5 @@
 ---
 title: "Reduce Global Variables"
-modified:
 categories: javascript
 excerpt: small discussion on how to reduce global variables in js
 tags:
@@ -56,7 +55,7 @@ MyNamespace.MyModule = function()
 	window.PROJ.someFunction = function () {
 
 	};
-	
+
 })();
 ```
 

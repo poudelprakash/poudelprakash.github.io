@@ -1,13 +1,12 @@
 ---
 title: Alternative of .includes() in Internet Explorer
-modified:
 categories: javascript
 excerpt: Alternative of .includes() in Internet Explorer
 tags:
 comments: true
 share: true
 date: 2016-07-04T07:51:29+05:45
-
+last_modified_at:
 ---
 
 For past 2 months I have been actively developing emberjs addon. As we near the release of this add-on, it is time for cross-browser testing(only time developer tests runs his app in Internet Explorer(IE)).

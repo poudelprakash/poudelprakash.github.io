@@ -1,6 +1,5 @@
 ---
 title: Curly Brackets in Linux Command Line
-modified:
 categories: linux
 excerpt: few use cases of curly brackets in linux terminal
 tags:

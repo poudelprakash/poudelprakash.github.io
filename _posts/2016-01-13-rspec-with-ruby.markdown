@@ -1,6 +1,5 @@
 ---
 title: Rspec With Ruby
-modified:
 categories:
 excerpt: Test Driven Development in ruby using rspec
 tags:

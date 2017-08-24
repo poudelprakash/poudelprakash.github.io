@@ -1,7 +1,6 @@
 ---
 layout: single
 title: History With Terminal
-modified:
 categories: linux
 excerpt: some handy history commands in terminal
 tags:

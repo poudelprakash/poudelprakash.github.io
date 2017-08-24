@@ -1,6 +1,5 @@
 ---
 title: (SOLVED) Application in engineyard not pointing to right utility instance
-modified:
 categories: devops 
 excerpt: If background tasks are failing after you terminate your old utility instance serving redis or other such features, you should try restarting unicorn server.
 tags: engineyard 

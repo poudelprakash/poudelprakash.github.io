@@ -1,7 +1,6 @@
 ---
 layout: single
 title: Setup New Rails Project
-modified:
 categories: rails
 excerpt: setup new rails project with rspec for testing
 tags: rails

@@ -1,12 +1,12 @@
 ---
 title: cleaning up kernels from your ubuntu
-modified:
 categories: linux 
 excerpt: My experience of removing a kernel version and how to
 tags:
 comments: true
 share: true
 date: 2016-03-19T08:26:29+05:45
+last_modified_at:
 ---
 
 Why would anyone want to do that?

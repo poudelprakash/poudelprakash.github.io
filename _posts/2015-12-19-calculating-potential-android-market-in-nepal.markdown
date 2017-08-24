@@ -1,6 +1,5 @@
 ---
 title: Calculating Potential Android Market in Kathmandu Valley
-modified:
 categories:
 excerpt: some calculations on android users
 tags: []

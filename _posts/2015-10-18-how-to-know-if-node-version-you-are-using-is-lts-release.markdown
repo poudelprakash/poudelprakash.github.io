@@ -1,6 +1,5 @@
 ---
 title: How to know if node version you are using is LTS release
-modified:
 categories: nodejs
 excerpt: How to know if node version you are using is LTS release
 tags:

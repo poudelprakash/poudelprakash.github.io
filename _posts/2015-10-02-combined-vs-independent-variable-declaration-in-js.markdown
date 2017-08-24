@@ -1,7 +1,6 @@
 ---
 layout: single
 title: "Debate: combined vs independent variable declaration in js"
-modified:
 categories: javascript
 excerpt: Debate regarding combined variable declaration and individual variable declaration in js.
 tags:

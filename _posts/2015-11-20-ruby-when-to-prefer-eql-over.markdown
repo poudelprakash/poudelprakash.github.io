@@ -1,6 +1,5 @@
 ---
 title: "RUBY: when to prefer eql? over =="
-modified:
 categories:
 excerpt: "RUBY: when to prefer eql? over =="
 tags: ruby

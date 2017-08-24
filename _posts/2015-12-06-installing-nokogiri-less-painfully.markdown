@@ -1,6 +1,5 @@
 ---
 title: Installing Nokogiri Gem Less Painfully
-modified:
 categories:
 excerpt: Installing Nokogiri gem less painfully
 tags:

@@ -1,6 +1,5 @@
 ---
 title: How to Get Current Host Url in Rails
-modified:
 categories: rails
 excerpt: how to get root url along with port number in rails
 tags:

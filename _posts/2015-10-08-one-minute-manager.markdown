@@ -1,7 +1,6 @@
 ---
 layout: single
 title: One Minute Manager
-modified: 2015-10-09T21:06:47+05:45
 categories:
 excerpt: Manage people effectively by serving them (note from the book "one minute manager").
 tags: management
@@ -9,6 +8,7 @@ author:
 comments: true
 share: true
 date: 2015-10-08T06:31:15+05:45
+last_modified_at: 2015-10-09T21:06:47+05:45
 ---
 
 Yesterday I read a book [*The one minute manager* by *Ken Blanchard and Spencer Johnson*](http://amzn.to/1LzKKEv){: rel="nofollow"}{:target="_blank"}. Author finds a highly effective manager and goes to find out his secrets and realises that manager was effective because he was one minute manager.In this book author has documented three golden rules followed by one minute manager. They are

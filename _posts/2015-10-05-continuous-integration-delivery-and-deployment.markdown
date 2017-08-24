@@ -1,7 +1,6 @@
 ---
 layout: single
 title: Continuous Integration, Delivery and Deployment
-modified:
 categories:
 excerpt: difference between continuous integration, continuous delivery and continuous deployment
 tags:

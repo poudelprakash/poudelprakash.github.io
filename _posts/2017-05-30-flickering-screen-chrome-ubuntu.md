@@ -1,12 +1,12 @@
 ---
 title: Solving screen flickering issue in freshly installed ubuntu
-modified:
 categories: linux
 excerpt: How to stop your flickering screen in freshly installed ubuntu
 tags: 
 comments: true
 share: true
 date: 2017-07-07T23:24:12+05:45
+last_modified_at:
 ---
 
 Recently I upgraded my ubunutu to 17.04. After few minutes with this new os, I started noticing that my screen was flickering.

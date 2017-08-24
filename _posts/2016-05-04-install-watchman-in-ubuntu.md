@@ -1,12 +1,12 @@
 ---
 title: install watchman in ubuntu
-modified:
 categories: linux 
 excerpt: how to install watchman in ubuntu
 tags:
 comments: true
 share: true
 date: 2016-03-19T08:26:29+05:45
+last_modified_at:
 ---
 
 ## Step 1: Install dependent files

@@ -1,6 +1,5 @@
 ---
 title: "How I made chitika ads responsive"
-last_modified_at: 2017-06-10T20:07:01+05:45
 categories:
   - javascript
 excerpt: Chitika has not officially approved responsive design yet but we can tweak it's script safely to serve responsive ads on our site.
@@ -10,6 +9,7 @@ tags:
 comments: true
 share: true
 date: 2014-03-12T20:07:01+05:45
+last_modified_at: 2017-06-10T20:07:01+05:45
 ---
 
 Yesterday I implemented [chitika](http://www.chitika.com/publishers/apply?refid=prakash_arsenal){: rel="nofollow"}{:target="_blank"} in my blog only to realise that it does not serve responsive ads yet. Horizontal scrollbar in the mobile view was ugly thing I wanted to fix.

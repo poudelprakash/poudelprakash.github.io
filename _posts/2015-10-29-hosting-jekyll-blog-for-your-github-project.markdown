@@ -1,6 +1,5 @@
 ---
 title: Hosting Jekyll Blog for Your Github Project
-modified:
 categories: jekyll
 excerpt: hosting jekyll blog for your github project
 tags:

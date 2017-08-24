@@ -1,6 +1,5 @@
 ---
 title: Generate an application with a specific Rails version
-modified: 2017-08-24
 categories: rails 
 excerpt: Generate an application with a specific Rails version
 tags:
@@ -8,6 +7,7 @@ tags:
 comments: true
 share: true
 date: 2016-03-03T22:13:42+05:45
+last_modified_at: 2017-08-24
 ---
 
 {% include toc %}

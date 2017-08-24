@@ -1,6 +1,5 @@
 ---
 title: Solution to warning Unresolved specs during Gem::Specification.reset
-modified:
 categories: 
 excerpt: how to solve warnings you get as you upgrade Jekyll
 tags:

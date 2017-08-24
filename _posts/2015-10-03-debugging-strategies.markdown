@@ -1,7 +1,6 @@
 ---
 layout: single
 title: "Debugging Strategies"
-modified:
 categories:
 excerpt: Let's talk about debugging strategies with a bit of humour.
 tags:

@@ -1,12 +1,12 @@
 ---
 title: How to install guake dropdown terminal in ubuntu
-modified:
 categories: linux
 excerpt: How to install guake dropdown terminal in ubuntu
 tags: guake setup, dropdown terminal in ubuntu
 comments: true
 share: true
 date: 2017-07-07T23:24:12+05:45
+last_modified_at:
 ---
 
 Guake is a drop-down terminal for GNOME Desktop Environment.

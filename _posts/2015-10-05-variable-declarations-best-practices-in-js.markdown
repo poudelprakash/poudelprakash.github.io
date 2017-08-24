@@ -1,7 +1,6 @@
 ---
 layout: single
 title: Variable Declarations Best Practices in Js
-modified:
 categories: javascript
 excerpt: best practices in js compiled from various sources like airbnb and jshint
 tags: js best practices

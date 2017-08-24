@@ -1,6 +1,5 @@
 ---
 title: Using Send Method in Ruby to Refactor Conditional
-modified:
 categories: ruby 
 excerpt: refactor your ruby conditionals using send method
 tags:

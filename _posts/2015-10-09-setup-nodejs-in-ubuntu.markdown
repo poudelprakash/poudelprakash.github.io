@@ -1,7 +1,6 @@
 ---
 layout: single
 title: Setup Nodejs in Ubuntu
-modified: 2016-05-10
 categories: nodejs
 excerpt: setup nodejs in ubuntu, avoid running npm as root
 tags:

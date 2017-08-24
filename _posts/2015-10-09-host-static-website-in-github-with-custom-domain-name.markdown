@@ -1,7 +1,6 @@
 ---
 layout: single
 title: Host Static Website in Github With Custom Domain Name
-modified:
 categories:
 excerpt: how to host static site in github with custom domain name
 tags:

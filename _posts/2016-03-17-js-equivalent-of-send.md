@@ -1,6 +1,5 @@
 ---
 title: Js Equivalent of Ruby send method
-modified:
 categories: javascript
 excerpt: js equivalent of ruby send method
 tags:

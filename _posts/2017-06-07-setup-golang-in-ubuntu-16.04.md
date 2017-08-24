@@ -1,12 +1,12 @@
 ---
 title: Setup golang in ubuntu 16.04
-modified:
 categories: linux
 excerpt: Setup golang in ubuntu 16.04
 tags: go, ubuntu
 comments: true
 share: true
 date: 2017-07-07T23:24:12+05:45
+last_modified_at:
 ---
 
 ## Install Go 1.8

@@ -1,6 +1,5 @@
 ---
 title: Making Better Use of Rvm
-modified:
 categories: ruby
 excerpt: solving 'path is not properly set up' error
 tags:

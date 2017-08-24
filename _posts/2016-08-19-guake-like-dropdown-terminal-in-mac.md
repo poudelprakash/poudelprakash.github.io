@@ -1,13 +1,12 @@
 ---
 title: Guake like dropdown terminal in mac os with iterm2
-modified:
 categories:
 excerpt: Guake like dropdown terminal in mac os with iterm2
 tags:
 comments: true
 share: true
 date: 2016-08-19T07:51:29+05:45
-
+last_modified_at:
 ---
 
 Switching your preferred operating system is always an uneasy experience, you start missing your favorite softwares and you feel like going to your old comfortable system. This happened to me when switching to linux from windows and is happening while switching to mac os from linux.

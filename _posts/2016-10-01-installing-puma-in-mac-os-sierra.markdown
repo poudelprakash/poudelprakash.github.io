@@ -1,13 +1,12 @@
 ---
 title: Install puma in mac os sierra
-modified:
 categories:
 excerpt: install puma in mac os sierra
 tags:
 comments: true
 share: true
 date: 2016-10-01T07:51:29+05:45
-
+last_modified_at:
 ---
 
 Today I was trying to install puma when I got this error:

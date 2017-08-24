@@ -1,6 +1,5 @@
 ---
 title: "Solving Cross-origin Issue With Fonts on Nginx Server"
-modified:
 categories: devops
 excerpt: In this post we learn to setup nginx to allow embedding font from 3rd party url in our rails app.
 tags:

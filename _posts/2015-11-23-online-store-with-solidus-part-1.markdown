@@ -1,6 +1,5 @@
 ---
 title: Online Store with Solidus (Part 1)
-modified: 2015-05-10
 categories:
 excerpt: Ecommerce using solidus (spree's alternative)
 tags:
@@ -9,6 +8,7 @@ tags:
 comments: true
 share: true
 date: 2015-11-23T23:04:49+05:45
+last_modified_at: 2015-05-10
 ---
 Since spree has been sold, I thought it might be good idea to setup tutorial to create ecommerce with alternative.
 

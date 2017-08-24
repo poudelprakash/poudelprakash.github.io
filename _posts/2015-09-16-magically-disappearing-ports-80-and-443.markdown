@@ -1,6 +1,5 @@
 ---
 title: "Magically Disappearing Ports – 80 and 443"
-modified:
 categories:
   - devops
 excerpt: Why we don't need to enter port number in a browser address bar.

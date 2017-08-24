@@ -1,7 +1,6 @@
 ---
 layout: single
 title: Quickly See the Ruby Version and Gemset Currently in Use
-modified:
 categories:
 excerpt: Quickly See the Ruby Version and Gemset Currently in Use
 tags:

@@ -1,12 +1,12 @@
 ---
 title: Best way to share your code locally to non-core member
-modified: 2017-05-25T23:24:12+05:45
 categories:
 excerpt: Best way to share your code locally with non-core member using git, ruby/node/python.
 tags:
 comments: true
 share: true
 date: 2017-05-05T23:24:12+05:45
+last_modified_at: 2017-05-25T23:24:12+05:45
 ---
 {% include toc %}
 

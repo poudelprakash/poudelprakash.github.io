@@ -1,6 +1,5 @@
 ---
 title: Running Docker as SSH Daemon
-modified: 2016-04-10
 categories: devops 
 excerpt: Setup and run docker as ssh daemon
 tags: 
@@ -8,6 +7,7 @@ tags:
 comments: true
 share: true
 date: 2016-02-06T00:07:54+05:45
+last_modified_at: 2016-04-10
 ---
 
 {% include toc %}

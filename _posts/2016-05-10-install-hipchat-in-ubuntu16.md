@@ -1,13 +1,12 @@
 ---
 title: install hipchat in ubuntu 16.04
-modified:
 categories: linux 
 excerpt: how to install hipchat in ubuntu 16.04
 tags:
 comments: true
 share: true
 date: 2016-05-10T07:51:29+05:45
-
+last_modified_at:
 ---
 
 Upgraded to ubuntu 16.04? chances are high that you have already faced problem while trying to install `hipchat` as steps listed in official site is of no help.
