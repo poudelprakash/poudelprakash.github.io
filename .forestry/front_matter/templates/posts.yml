@@ -1,0 +1,152 @@
+---
+pages:
+- _posts/2017-07-25-copying-value-from-variable-to-clipboard.md
+- _posts/2017-07-21-same-enum-values-for-multiple-columns.md
+- _posts/2017-07-14-ignore-comments-in-rubocop.md
+- _posts/2017-07-07-setup-guake-terminal-linux.md
+- _posts/2017-06-07-setup-golang-in-ubuntu-16.04.md
+- _posts/2017-05-30-flickering-screen-chrome-ubuntu.md
+- _posts/2017-05-23-install-powerline-fonts-in-ubuntu-17.04.md
+- _posts/2017-05-05-best-way-to-share-project-locally-using-ruby.markdown
+- _posts/2016-10-01-installing-puma-in-mac-os-sierra.markdown
+- _posts/2016-08-19-guake-like-dropdown-terminal-in-mac.md
+- _posts/2016-08-17-personal-wiki.md
+- _posts/2016-07-04-ie-alternative-to-inludes.md
+- _posts/2016-06-18-scrapping-kaymu-for-products-price.md
+- _posts/2016-05-10-pretend-with-rails-generator.md
+- _posts/2016-05-10-install-hipchat-in-ubuntu16.md
+- _posts/2016-05-04-install-watchman-in-ubuntu.md
+- _posts/2016-03-19-cleaning-up-linux-kernels.md
+- _posts/2016-03-17-js-equivalent-of-send.md
+- _posts/2016-03-03-generate-an-application-with-a-specific-rails-version.md
+- _posts/2016-03-01-making-rbenv-work-with-zsh.md
+- _posts/2016-02-26-upgrade-nodejs-using-npm.md
+- _posts/2016-02-26-install-rmagick-gem-in-ubuntu-painlessly.md
+- _posts/2016-02-23-using-send-method-in-ruby-to-refactor-conditional.md
+- _posts/2016-02-18-solved-application-in-engineyard-not-pointing-to-right-utility-instance.md
+- _posts/2016-02-14-binary-to-octal-evaluation.md
+- _posts/2016-02-14-running-shell-command-from-ruby-script.md
+- _posts/2016-02-06-unresolved-gem-specification.md
+- _posts/2016-02-06-running-docker-as-ssh-daemon.md
+- _posts/2016-02-05-troubleshoot-enable-wifi-disabled-in-linux.md
+- _posts/2016-02-04-pending-migrations-in-tests-in-rails-4-0-4.md
+- _posts/2016-01-13-rspec-with-ruby.markdown
+- _posts/2015-12-19-calculating-potential-android-market-in-nepal.markdown
+- _posts/2015-12-06-installing-nokogiri-less-painfully.markdown
+- _posts/2015-11-23-online-store-with-solidus-part-1.markdown
+- _posts/2015-11-20-ruby-when-to-prefer-eql-over.markdown
+- _posts/2015-11-10-display-current-branch-name-in-terminal.markdown
+- _posts/2015-11-05-list-node-packages-installed.markdown
+- _posts/2015-10-30-how-to-get-current-host-url-in-rails.markdown
+- _posts/2015-10-29-hosting-jekyll-blog-for-your-github-project.markdown
+- _posts/2015-10-25-curly-brackets-in-linux-command-line.markdown
+- _posts/2015-10-18-how-to-know-if-node-version-you-are-using-is-lts-release.markdown
+- _posts/2015-10-15-quickly-see-the-ruby-version-and-gemset-currently-in-use.markdown
+- _posts/2015-10-12-few-keyboard-shortcuts-for-terminal.markdown
+- _posts/2015-10-12-history-with-terminal.markdown
+- _posts/2015-10-09-basics-of-writing-a-jquery-plugin.markdown
+- _posts/2015-10-09-setup-nodejs-in-ubuntu.markdown
+- _posts/2015-10-09-making-better-use-of-rvm.markdown
+- _posts/2015-10-08-one-minute-manager.markdown
+- _posts/2015-10-07-setup-new-rails-project.markdown
+- _posts/2015-10-05-comparison-operators.markdown
+- _posts/2015-10-05-js-debugger.markdown
+- _posts/2015-10-05-variable-declarations-best-practices-in-js.markdown
+- _posts/2015-10-05-continuous-integration-delivery-and-deployment.markdown
+- _posts/2015-10-04-estimating-as-a-programmer.markdown
+- _posts/2015-10-03-ping-pong-pair-programming.markdown
+- _posts/2015-10-03-debugging-strategies.markdown
+- _posts/2015-10-02-combined-vs-independent-variable-declaration-in-js.markdown
+- _posts/2015-10-02-reduce-global-variables.markdown
+- _posts/2015-10-01-four-types-of-duplication-in-source-code.markdown
+- _posts/2015-09-21-solving-cross-origin-issue-with-fonts-on-nginx-server.markdown
+- _posts/2015-09-16-magically-disappearing-ports-80-and-443.markdown
+- _posts/2014-03-12-how-i-made-chitika-ads-responsive.markdown
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: categories
+  label: Categories
+  type: tag_list
+  hidden: false
+  default: ''
+- name: excerpt
+  label: Excerpt
+  type: textarea
+  hidden: false
+  default: ''
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default: ''
+- name: comments
+  label: Comments
+  type: boolean
+  hidden: false
+  default: true
+- name: share
+  label: Share
+  type: boolean
+  hidden: false
+  default: true
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: last_modified_at
+  label: Last modified at
+  type: datetime
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: single
+- name: author
+  label: Author
+  type: text
+  hidden: false
+  default: ''
+- name: published
+  label: Published
+  type: boolean
+  hidden: false
+  default: ''
+- name: image
+  label: Image
+  type: field_group
+  fields:
+  - name: feature
+    label: Feature
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: modified
+  label: Modified
+  type: text
+  hidden: false
+  default: ''
+- name: author_profile
+  label: Author profile
+  type: boolean
+  hidden: false
+  default: true
+- name: read_time
+  label: Read time
+  type: boolean
+  hidden: false
+  default: true
+- name: related
+  label: Related
+  type: boolean
+  hidden: false
+  default: true
