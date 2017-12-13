@@ -1,5 +1,6 @@
 ---
 pages:
+- _posts/test.md
 - _posts/2017-07-25-copying-value-from-variable-to-clipboard.md
 - _posts/2017-07-21-same-enum-values-for-multiple-columns.md
 - _posts/2017-07-14-ignore-comments-in-rubocop.md
