@@ -6,12 +6,17 @@ tags:
 comments: true
 share: true
 date: 2016-08-19T07:51:29+05:45
-last_modified_at:
+last_modified_at: 2017-12-18T12:30:29+05:45
 ---
 
-Switching your preferred operating system is always an uneasy experience, you start missing your favorite softwares and you feel like going to your old comfortable system. This happened to me when switching to linux from windows and is happening while switching to mac os from linux.
+This article was updated on December 2017 for iterm2 version 3.1.5.
+{: .notice--info}
 
-One of the application I am missing so much in mac os is dropdown terminal. Guake does not work on mac and I was searching for alternative. Now I have found alternative in iterm2, let me walk you through how I installed iterm2 and set it up as dropdown terminal.
+{% include video id="TK3PUH30F5Q" provider="youtube" %}
+
+Switching to new operating system comes with lots of nostalgic and uneasy feelings. Looking for similar experiences in new OS is quite common.
+
+Dropdown terminal is one of the application developers switching to macos miss the most. Though `guake` does not work with mac, Iterm2 can be configured to setup as dropdown terminal.
 
 ## Installation
 
@@ -22,17 +27,22 @@ Configuring iterm2 as dropdown terminal is really easy as you just need to assig
 
 Following are the steps you need to follow:
 
-### goto iterm2 preference
+### Go to iterm2 preference
 Assuming you are now running iterm2; on the top left you will see iterm2 written just beside apple logo, click there and go to preference.
 
-### click on keys tab
-On keys tab, on the bottom left you will see hot key options.
+### Click on keys tab
 
-### toggle hotkey option
-You need to select checkbox that says "show/hide iterm2 with a system-wide hotkey" to toggle hotkey. Toggling hotkey option will automatically create you a profile named "Hotkey Window".
+### Create a dedicated hotkey window
+On the bottom of this window you will see a botton that says `create a dedicated hotkey window`. 
+Click on that and you will see a new window where you can configure hotkey(shortcut) for dropdown terminal.
 
-## Assign hotkey
-click on input box on the side of HotKey and then click the combination you want to assign to open iterm2. My combination is `CRTL-~`.
+### Assign hotkey
+(On a newly opened window)<br>
+Click on input box on the side of HotKey and then click the combination you want to assign to open iterm2. My combination is `CRTL-~`.
+
+That's it, now you can open drop down terminal with shortcut you assigned in last step. In my case it is `CRTL+~`.
+
+Did this work for you? Please leave your comments below. 
 
 References:
 
