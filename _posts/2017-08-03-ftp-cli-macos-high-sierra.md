@@ -1,8 +1,8 @@
 ---
 title: How to get FTP and Telnet back in High Sierra?
-categories: javascript
+categories: 
 excerpt: Are you missing ftp in cli of mac os? Here is how you can get FTP and Telnet back in High Sierra?
-tags: 
+tags: macos
 comments: true
 share: true
 date: 2017-08-03T21:59:12+05:45
