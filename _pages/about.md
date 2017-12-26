@@ -4,7 +4,7 @@ title: "About"
 excerpt: "I am full stack engineer from Nepal."
 modified: 2016-07-17T13:26:37+05:45
 ---
-I am full stack software engineer at [Leapfrog Technology](http://www.lftechnology.com){: rel="nofollow"}{:target="_blank"}. I have special interest in e-commerce, analytics and startups.
+I am full stack software engineer at Truemark technology. I was at [Leapfrog Technology](http://www.lftechnology.com){: rel="nofollow"}{:target="_blank"} before this. I have special interest in e-commerce, analytics and startups.
 
 I enjoy both developing and playing games.
 
