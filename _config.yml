@@ -82,7 +82,7 @@ analytics:
 author:
   name             : *name
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Full stack software engineer at Leapfrog Technology."
+  bio              : "Founder / Full stack software engineer at Truemark Technology."
   location         : "Kathmandu, Nepal"
   email            : *email
   uri              : "https://www.sharmaprakash.com.np"
