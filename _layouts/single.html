@@ -53,15 +53,15 @@ layout: default
             </nav>
           </aside>
         {% endif %}
-                  <aside class="sidebar__right
-                              <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"> </script> <!-- TOC
-                    replacement ad -->
-                    <ins class="adsbygoogle" style="display:inline-block;width:300px;height:600px"
-                      data-ad-client="ca-pub-6416889815673976" data-ad-slot="9533883476"></ins>
-                    <script>
-                      (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                  </aside>
+                  // <aside class="sidebar__right
+                  //             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"> </script> <!-- TOC
+                  //   replacement ad -->
+                  //   <ins class="adsbygoogle" style="display:inline-block;width:300px;height:600px"
+                  //     data-ad-client="ca-pub-6416889815673976" data-ad-slot="9533883476"></ins>
+                  //   <script>
+                  //     (adsbygoogle = window.adsbygoogle || []).push({});
+                  //   </script>
+                  // </aside>
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
@@ -76,6 +76,13 @@ layout: default
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
         {% endif %}
+                  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                  <!-- Responsive 2 -->
+                  <ins class="adsbygoogle" style="display:block; border: none;" data-ad-client="ca-pub-6416889815673976"
+                    data-ad-slot="9051140046" data-ad-format="auto"></ins>
+                  <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                  </script>
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
