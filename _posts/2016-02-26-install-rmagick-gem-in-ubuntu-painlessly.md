@@ -1,15 +1,14 @@
 ---
 title: Install Rmagick Gem in Ubuntu Painlessly
-categories: linux 
+categories: linux
 excerpt: Install Rmagick gem in Ubuntu Painlessly
-tags: 
+tags:
   - rmagick
 comments: true
 share: true
 date: 2016-02-26T13:13:23+05:45
+toc: true
 ---
-
-{% include toc %}
 
 ## tl;dr for busy ones
 
