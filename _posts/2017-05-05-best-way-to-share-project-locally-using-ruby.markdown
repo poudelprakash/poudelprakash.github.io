@@ -5,10 +5,10 @@ excerpt: Best way to share your code locally with non-core member using git, rub
 tags:
 comments: true
 share: true
+toc: true
 date: 2017-05-05T23:24:12+05:45
 last_modified_at: 2017-05-25T23:24:12+05:45
 ---
-{% include toc %}
 
 This blog post assumes that you are using git as your version control tool.
 {: .notice--info}

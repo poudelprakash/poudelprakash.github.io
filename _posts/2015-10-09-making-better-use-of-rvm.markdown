@@ -5,9 +5,9 @@ excerpt: solving 'path is not properly set up' error
 tags:
 comments: true
 share: true
+toc: true
 date: 2015-10-09T20:40:12+05:45
 ---
-{% include toc %}
 
 ## quick tip
 

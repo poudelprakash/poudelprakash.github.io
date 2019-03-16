@@ -7,9 +7,8 @@ tags:
 comments: true
 share: true
 date: 2015-10-04T18:19:42+05:45
+toc: true
 ---
-
-{% include toc %}
 
 Time estimation might be every developer's nightmare but it need not be your problem too. Here I try to talk about my latest learnings regarding time estimation.
 

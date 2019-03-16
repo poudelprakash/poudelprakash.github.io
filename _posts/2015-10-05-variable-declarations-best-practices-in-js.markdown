@@ -8,9 +8,8 @@ author:
 comments: true
 share: true
 date: 2015-10-05T22:21:08+05:45
+toc: true
 ---
-
-{% include toc %}
 
 ## Don't declare variable twice
 

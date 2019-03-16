@@ -7,9 +7,8 @@ tags:
 comments: true
 share: true
 date: 2015-10-02T07:19:24+05:45
+toc: true
 ---
-
-{% include toc %}
 
 >"By reducing your global footprint to a single name, you significantly reduce the chance of bad interactions with other applications, widgets, or libraries." - Douglas Crockford
 

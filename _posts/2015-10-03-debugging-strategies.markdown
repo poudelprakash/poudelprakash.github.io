@@ -7,8 +7,8 @@ tags:
 comments: true
 share: true
 date: 2015-10-03T10:34:42+05:45
+toc: true
 ---
-{% include toc %}
 
 <p style="color:red">warning: contains lots of violence</p>
 

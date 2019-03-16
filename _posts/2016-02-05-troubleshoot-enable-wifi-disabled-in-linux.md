@@ -1,14 +1,13 @@
 ---
 title: How to enable wifi when 'Enable Wifi' is disabled in linux GUI
-categories: linux 
+categories: linux
 excerpt: how to enable wifi when 'Enable Wifi' is disabled in linux GUI
 tags:
 comments: true
 share: true
+toc: true
 date: 2016-02-05T21:32:30+05:45
 ---
-
-{% include toc %}
 
 ## Ubuntu loves messing up!
 

@@ -1,16 +1,15 @@
 ---
 title: Running Docker as SSH Daemon
-categories: devops 
+categories: devops
 excerpt: Setup and run docker as ssh daemon
-tags: 
+tags:
   - docker
 comments: true
 share: true
+toc: true
 date: 2016-02-06T00:07:54+05:45
 last_modified_at: 2016-04-10
 ---
-
-{% include toc %}
 
 Please follow [this tutorial][install-docker-in-ubuntu] to install docker.
 
@@ -19,8 +18,8 @@ Dockerizing a SSH daemon service is two step process:
 
 1. Build a docker image
 2. Run the docker image in a container
- 
-### Step1 (Build) 
+
+### Step1 (Build)
 First we need to build a docker image. For this copy the code below and paste it to your Dockerfile.
 
 ```ruby
@@ -76,7 +75,7 @@ Now we have port number we want to ssh to but still don’t know the ip. Enter t
 
 ```bash
 $ ifconfig
-docker0   Link encap:Ethernet  HWaddr 00:00:00:00:00:00  
+docker0   Link encap:Ethernet  HWaddr 00:00:00:00:00:00
           inet addr:172.17.42.1  Bcast:0.0.0.0  Mask:255.255.0.0
 ```
 

@@ -8,10 +8,10 @@ tags:
   - shell
 comments: true
 share: true
+toc: true
+toc_label: "possible ways"
 date: 2016-02-14T12:50:09+05:45
 ---
-
-{% include toc title = "possible ways" %}
 
 Yesterday I was watching ruby-tapas video on binary literals. Avdi was showing an example where he changes file permissions from ruby script. His code would look like this:
 
@@ -63,6 +63,6 @@ drwxrwxr-x 12 fleck fleck 4096 फ़रवरी 14 12:27 ..
 => true
 ```
 
-There may be other ways of achieving the same and I would love to learn what is your preferred way. Feel free to comment below. 
+There may be other ways of achieving the same and I would love to learn what is your preferred way. Feel free to comment below.
 
 Happy Learning! :)

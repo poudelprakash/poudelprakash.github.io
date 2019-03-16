@@ -7,14 +7,13 @@ comments: true
 share: true
 published: true
 date: 2015-10-05T23:09:32+05:45
+toc: true
 ---
 ## strict vs type–converting comparisons
 
 | Strict comparision | Type converting comparison |
 |:------------- |:------------------------------------- |
 | 1. A strict comparison (e.g., ===) is only true if the operands are of the same type.	| 1. abstract comparison (e.g. ==) converts the operands to the same Type before making the comparison.	|
-
-{% include toc %}
 
 ## More features of comparisons:
 

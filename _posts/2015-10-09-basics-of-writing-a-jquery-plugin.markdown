@@ -7,9 +7,9 @@ tags: 'js best practices'
 author:
 comments: true
 share: true
+toc: true
 date: 2015-10-10T20:40:50+05:45
 ---
-{% include toc %}
 
 ## Background on jquery plugins
 

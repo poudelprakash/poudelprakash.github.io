@@ -1,16 +1,15 @@
 ---
 title: Generate an application with a specific Rails version
-categories: rails 
+categories: rails
 excerpt: Generate an application with a specific Rails version
 tags:
   - rbenv
 comments: true
 share: true
+toc: true
 date: 2016-03-03T22:13:42+05:45
 last_modified_at: 2017-08-24
 ---
-
-{% include toc %}
 
 There are few ways we can create an application with specific rails version.
 
@@ -24,7 +23,7 @@ rails (5.0.0.beta3, 5.0.0.beta2, 4.2.5.2, 4.2.5.1, 4.2.4, 4.2.1)
 
 ## Method 1: Common method
 
-Let's start with most common and widely documented method: 
+Let's start with most common and widely documented method:
 
 ```sh
  rails version new app_name
@@ -38,7 +37,7 @@ rails _4.2.1_ new my_app
 ```
 
 Sometimes, this method does not work, I have not yet been able to identify reasons behind it. Please leave comment below if you know or have some assumptions on why this method fails sometimes. Several people have reported this method to be failing sometimes and they had been using latest/other version instead.
-{: .notice} 
+{: .notice}
 
 ## Method 2: Let bundler handle the rails version
 
@@ -92,7 +91,7 @@ Now, we can use the rails command line tool with bundle exec to force the versio
 bundle exec rails new . --force # --force to overrite curent Gemfile
 ~~~
 
-If you were unaware about rails runtime option `force`, it is used to overwrite files that already exist. Just type `rails` in your commandline and you will see explanation about this command. 
+If you were unaware about rails runtime option `force`, it is used to overwrite files that already exist. Just type `rails` in your commandline and you will see explanation about this command.
 
 Now, we have new rails project with our desired rails version(`4.2.1`).
 
