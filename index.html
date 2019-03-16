@@ -34,6 +34,28 @@ feature_row:
     url: '/javascript/ie-alternative-to-inludes/'
     btn_label: 'Read More'
     btn_class: 'btn--primary align-center'
+amazon_books:
+  - image_path: assets/images/books/subtle-art.jpg
+    title: 'The Subtle Art of Not Giving a F*ck'
+    excerpt:
+    url: https://www.amazon.com/gp/product/0062457713/ref=as_li_tl?ie=UTF8&tag=prakash014-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0062457713&linkId=564869981ea073564d1f353b4a3900a8
+    btn_label: 'Buy From Amazon'
+    btn_class: 'btn--primary align-center'
+    target: '_blank'
+  - image_path: assets/images/books/lean-startup.jpg
+    title: 'The Lean Startup by Eric Ries'
+    excerpt:
+    url: https://www.amazon.com/gp/product/0307887898/ref=as_li_tl?ie=UTF8&tag=prakash014-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0307887898&linkId=218788d76ba620db250fb73bcca0b58c
+    btn_label: 'Buy From Amazon'
+    btn_class: 'btn--primary align-center'
+    target: '_blank'
+  - image_path: assets/images/books/pragmatic-programmer.jpg
+    title: 'The Pragmatic Programmer'
+    excerpt:
+    url: https://www.amazon.com/gp/product/020161622X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=020161622X&linkCode=as2&tag=prakash014-20&linkId=727c5d36b9e8ea142897c9ca2d5ae2d9
+    btn_label: 'Buy From Amazon'
+    btn_class: 'btn--primary align-center'
+    target: '_blank'
 feature_row4:
   - image_path: assets/images/home/truemark-card.png
     alt: 'Truemark'
@@ -89,3 +111,6 @@ feature_row4:
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+<h3 class="archive__subtitle">Books I Recommend</h3>
+{% include feature_row id="amazon_books" %}
