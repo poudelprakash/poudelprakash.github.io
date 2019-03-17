@@ -6,6 +6,7 @@ tags:
 comments: true
 share: true
 date: 2016-08-19T07:51:29+05:45
+toc: true
 header:
   og_image: /assets/images/posts/guake-like-terminal-mac/header.jpg
 last_modified_at: 2019-03-17T12:30:29+05:45
@@ -45,8 +46,8 @@ Click on input box on the side of HotKey and then click the combination you want
 That's it, now you can open drop down terminal with shortcut you assigned in last step. In my case it is `CRTL+~`.
 
 ## Setup iterm2 to start when your mac starts
-### Step 1: Goto System Preferences > User and groups > Login Items.
-### Step 2: Drag and drop iterm from applications folders to login items.
+### Goto System Preferences > User and groups > Login Items.
+### Drag and drop iterm from applications folders to login items.
 You can see the video above in case of confusion.
 {: .notice--info}
 
@@ -54,11 +55,12 @@ You can see the video above in case of confusion.
 By default, iterm switches your workspace when you try to open it from full screen apps.
 You can setup iterm to float over full screen apps with following steps:
 
-### Step 1: Enable the 'Hide iTerm2 from the Dock...' option from the Advanced menu in preferences
+### Enable the 'Hide iTerm2 from the Dock...' option from the Advanced menu in preferences
 Preference -> Advanced -> Hide iTerm2 from the dock ... => set to Yes
-### Step 2: Configure your profile for all spaces:
+### Configure your profile for all spaces:
 Under preference -> profile -> window -> space : set to all spaces.
-### Step 3: Restart Guake
+### Restart Guake
+After restarting you should be able to use iterm also from full screen apps.
 
 Did this work for you? Please leave your comments below.
 
