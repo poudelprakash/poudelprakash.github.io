@@ -11,7 +11,7 @@ esac
 
 }
 
-bundle exec jekyll serve --config _config.yml,_config.dev.yml & open_blog_in_browser
+bundle exec jekyll serve --drafts --config _config.yml,_config.dev.yml & open_blog_in_browser
 
 # Ref:
 # 1. detect os: https://stackoverflow.com/a/18434831

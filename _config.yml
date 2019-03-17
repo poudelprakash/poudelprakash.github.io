@@ -155,6 +155,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "Terms & policies"
+      icon: "fas fa-fw fa-link"
+      url: "/terms"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://www.sharmaprakash.com.np"
