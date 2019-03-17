@@ -6,6 +6,8 @@ tags:
 comments: true
 share: true
 date: 2016-08-19T07:51:29+05:45
+header:
+  og_image: /assets/images/posts/guake-like-terminal-mac/header.jpg
 last_modified_at: 2019-03-17T12:30:29+05:45
 ---
 
