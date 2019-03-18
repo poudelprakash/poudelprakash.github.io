@@ -4,6 +4,8 @@ categories:
 excerpt: 6 awesome git tricks you should be using in 2019
 tags: git
 toc: true
+header:
+  og_image: /assets/images/posts/6-git-tricks-1.jpg
 date: 2019-03-17T08:42:12+05:45
 last_modified_at:
 ---
@@ -23,7 +25,7 @@ git commit --ammend
 
 Please take care that you have not pushed the commit to remote yet else you will have to force push after using this trick. {: .notice--info}
 
-## check git differences and omit whitespaces
+## Check git differences and omit whitespaces
 
 When you are taking over someone else's code, chances are high that they may have different editor settings than yours.
 
@@ -31,7 +33,7 @@ As a result, whenever you save your code, there is lots of whitespace changes. T
 
 You can do `git diff --ignore-all-space` or `git diff -w` to compare changes without space.
 
-## stash with message
+## Stash with message
 `git stash` & `git stash apply` is almost every developer's favourite when they just want to try some thing from clean state.
 
 But I highly doubt that default messages created by `git stash` in the format `“WIP on <branch></branch>: <whatever the latest commit message was>”` would be anyone's favourite. It becomes more annoying to recognize stash you need when you have multiple stashes.
@@ -42,7 +44,7 @@ But git stash can be created with message you would like to give to your future 
 git stash save -u 'come back if to here if attempt on elastic search didn't work'
 ```
 
-## clone fast with only one commit
+## Clone fast with only one commit
 One of the funniest thing of being shifted to some old project is that first clone of the project taking upto an hour and worst failing in middle.
 
 There is nothing one can really do if that is because repo has some heavy files but if that is due to large number of commits in the repo, we can always clone repo with only last commit using  following command:
