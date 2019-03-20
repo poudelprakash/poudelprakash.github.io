@@ -3,7 +3,7 @@ title: Top 3 programming language you should learn in 2019 for professional care
 categories: career-advice
 excerpt: Anyone wanting to learn programming in 2019 for professional career should start with javascript for full stack need, python for data science and c# for gaming
 header:
-  og_image: /assets/images/posts//programming-languages-2019/header.png
+  og_image: /assets/images/posts/programming-languages-2019/header.png
 tags:
 date: 2019-03-20T09:42:12+05:45
 last_modified_at:
