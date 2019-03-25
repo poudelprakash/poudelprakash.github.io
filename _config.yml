@@ -142,7 +142,7 @@ footer:
       url: "https://www.linkedin.com/in/poudelprakash/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://facebook.com/poudelprakash/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/poudelprakash"
