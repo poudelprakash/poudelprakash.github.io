@@ -11,7 +11,9 @@ I am founder/full stack software engineer at Truemark technology. I have special
 
 I enjoy both developing and playing games.
 
-| **Address:** | Kathmandu, Nepal | | **Hobbies:** | blogging, playing chess, game development, reading books | | **Education:** | **Bachelors of Engineering in Computer Science** from [ACEM(TU)](http://acem.edu.np/){: rel="nofollow"}{:target="\_blank"} |
+| **Address:** | Kathmandu, Nepal |
+| **Hobbies:** | blogging, playing chess, game development, reading books |
+| **Education:** | **Bachelors of Engineering in Computer Science** from [ACEM(TU)](http://acem.edu.np/){: rel="nofollow"}{:target="\_blank"} |
 
 ## Things I may write about in this blog:
 
