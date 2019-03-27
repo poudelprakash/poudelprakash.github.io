@@ -5,10 +5,14 @@ excerpt: List of git commands you can use
 # header:
 #   og_image: /assets/images/posts/programming-languages-2019/header.png
 tags:
-date: 2019-03-25T09:42:12+05:45
+date: 2018-12-25T09:42:12+05:45
 last_modified_at: 2019-03-25T09:42:12+05:45
 toc: true
 toc_sticky: true
+author_profile: true
+# sidebar:
+#   title: "Sample Title"
+#   nav: git-sidebar
 ---
 
 ### Getting & Creating Projects
@@ -67,3 +71,11 @@ toc_sticky: true
 | `git log` | View changes |
 | `git log --summary` | View changes (detailed) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+### Patching
+
+| Command | Description |
+| ------- | ----------- |
+| `git-diff` | View changes |
+| `git rebase [branch name]` | Reapply commits on top of another base tip |
+| `git revert [commit]` | Revert existing commits |
