@@ -1,7 +1,7 @@
 ---
 title: 'Introduction to Zero Investment Startup'
 permalink: /zero_investment_startup/intro/
-excerpt: 'How the theme is organized and what all of the files are for.'
+excerpt: 'Introduction to Zero Investment Startup'
 comments: true
 share: true
 date: 2019-09-30T14:07:01+05:45
