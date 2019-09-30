@@ -30,3 +30,21 @@ git-sidebar:
         url: /
       - title: "Child Page B5"
         url: /
+
+zero-investment-sidebar:
+  - title: "01: Introduction to zero investment startup"
+    url: /zero_investment_startup/intro/
+  - title: "02: Co-working spaces"
+    url: /zero_investment_startup/co-working-spaces/
+  - title: "03: Remote Culture"
+    url: /zero_investment_startup/remote-culture/
+  - title: "04: Commission based resources"
+    url: /zero_investment_startup/commission-based-resources/
+  - title: "05: Communication"
+    url: /zero_investment_startup/communication/
+  - title: "06: Tools"
+    url: /zero_investment_startup/tools/
+  - title: "07: Marketing"
+    url: /zero_investment_startup/marketing/
+  - title: "08: Agile"
+    url: /zero_investment_startup/agile/
