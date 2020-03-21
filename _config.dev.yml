@@ -2,6 +2,7 @@
 
 url: http://localhost:4000
 # locale                   : "ne-NP"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 analytics:
   provider: false
