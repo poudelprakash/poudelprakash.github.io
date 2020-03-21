@@ -5,6 +5,7 @@ excerpt: Anyone wanting to learn programming in 2019 for professional career sho
 classes: wide
 header:
   og_image: /assets/images/posts/programming-languages-2019/header.png
+  teaser: /assets/images/posts/programming-languages-2019/header.png
 tags:
 date: 2019-03-20T09:42:12+05:45
 last_modified_at:

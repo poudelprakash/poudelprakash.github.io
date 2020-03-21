@@ -6,6 +6,7 @@ tags: git
 toc: true
 header:
   og_image: /assets/images/posts/6-git-tricks-1.jpg
+  teaser: /assets/images/posts/6-git-tricks-1.jpg
 date: 2019-03-17T08:42:12+05:45
 last_modified_at:
 ---
