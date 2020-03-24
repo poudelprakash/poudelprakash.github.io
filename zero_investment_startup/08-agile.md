@@ -230,7 +230,9 @@ Another reason for an organization to implement change is to improve performance
 
 Change is unavoidable as the environment changes rapidly. The organization has to adapt to the changing environment. This helps the organization to have healthy competition and grab new opportunities to be ahead of the competitor and survive in the market. This helps the organization to analyze its strengths and weaknesses.
 
-If you want to know more about the importance of change in business, then please buy our e-book from the link below.
+Don't forget to attach comments sharing your experience with the article and if it helped you, this may help others too. So, don't hesitate to share it with others.
+
+<!-- If you want to know more about the importance of change in business, then please buy our e-book from the link below. -->
 
 **References**
 

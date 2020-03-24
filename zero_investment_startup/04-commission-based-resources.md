@@ -145,4 +145,5 @@ Commission-based payment can help in starting a business without investing capit
 
 Commission-based payment is one of the best decisions for any startup. It not only helps to run the startup smoothly but also helps any startup to grow gradually. Rather it helps any business to grow.
 
-Want to know more about commission-based payment? What are the benefits and drawbacks of the commission-based payment? How it helps to build a team? How it benefits a startup?
+<!-- Want to know more about commission-based payment? What are the benefits and drawbacks of the commission-based payment? How it helps to build a team? How it benefits a startup? -->
+Don't forget to attach comments sharing your experience with the article and if it helped you, this may help others too. So, don't hesitate to share it with others.

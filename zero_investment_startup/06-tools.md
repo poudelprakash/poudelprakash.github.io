@@ -182,12 +182,13 @@ With google docs, the user can write, edit, and share files and documents. It he
 
 Google Calendar is a time-management service provided by Google that allows users to add and edit events with reminders for a particular event. It allows users to distinguish the events with the help of the color adding option. The user can provide access to the Calendar that allows other users to view and add events. The user can select time zone for the events as well.
 
-
 Investing in a remote team is beneficial for any business. But, it comes with challenges. Managing a remote team is a challenging job for any project manager. And as a project manager, it is the responsibility of him/her to manage a remote team effectively. With the introduction of different communication tools and project management tools, it has become easier for the project manager to manage the remote team. The project manager has to test and choose the best tools for managing a remote team.
 
-Curious to know more about a remote team? How to manage a remote team? Tools to manage a remote team?
+Don't forget to attach comments sharing your experience with the article and if it helped you, this may help others too. So, don't hesitate to share it with others.
 
-Please buy our e-book from the link below to know more.
+<!-- Curious to know more about a remote team? How to manage a remote team? Tools to manage a remote team?
+
+Please buy our e-book from the link below to know more. -->
 
 **References**
 

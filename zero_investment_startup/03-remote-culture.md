@@ -245,7 +245,9 @@ Advancement in technology is increasing rapidly, so are new opportunities. With 
 
 It can be said that it is not only profitable for established companies but also to zero investment startup too. Those who are trying to start a startup can go for hiring remote workers. Hiring a remote worker is cost-efficient too. This is a perfect scenario for any zero investment startup.
 
-Want to know more about remote working and its benefits? How to build a remote team? How to manage a remote team? You can do so by reading our e-book about remote work.
+Don't forget to attach comments sharing your experience with the article and if it helped you, this may help others too. So, don't hesitate to share it with others.
+
+<!-- Want to know more about remote working and its benefits? How to build a remote team? How to manage a remote team? You can do so by reading our e-book about remote work. -->
 
 <!-- Buy our e-book at a reasonable price by clicking the below link. -->
 

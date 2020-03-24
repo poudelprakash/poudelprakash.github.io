@@ -209,7 +209,9 @@ Another strategy is to promote customer referrals. The business can communicate 
 
 Inbound marketing can be said as the future of marketing. Any business can implement inbound marketing strategies. Hundreds and thousands of startups are emerging in the market every day. And this is increasing rapidly. But, the main problem is to market a business in a competitive and survive. But such startups can promote themselves if they use inbound marketing strategies. Inbound marketing is the best strategy for marketing a business with a little investment or free of cost.
 
-Want to know more about the inbound marketing strategy for zero investment startup? Please buy our e-book from the link below.
+Don't forget to attach comments sharing your experience with the article and if it helped you, this may help others too. So, don't hesitate to share it with others.
+
+<!-- Want to know more about the inbound marketing strategy for zero investment startup? Please buy our e-book from the link below. -->
 
 
 References
