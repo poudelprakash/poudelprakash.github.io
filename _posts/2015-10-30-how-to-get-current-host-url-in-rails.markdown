@@ -8,6 +8,7 @@ share: true
 image:
   feature:
 date: 2015-10-30T13:58:12+05:45
+last_modified_at: 2020-03-24T13:58:12+05:45
 ---
 
 You are in right place if you want to get root url along with port number in rails.
@@ -24,4 +25,4 @@ In applications you may need to generate url that will link back to your applica
 
 Previously, we used to have environment variable like `HOST: localhost:3000` saved in `application.yml` which would be later called by `ENV['HOST']`.
 
-This would lead to error when I would run server in some other port than default(3000).
+<!-- This would lead to error when I would run server in some other port than default(3000). -->
