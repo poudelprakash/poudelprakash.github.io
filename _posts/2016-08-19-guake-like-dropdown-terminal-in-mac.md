@@ -9,7 +9,7 @@ date: 2016-08-19T07:51:29+05:45
 toc: true
 header:
   og_image: /assets/images/posts/guake-like-terminal-mac/header.jpg
-last_modified_at: 2019-03-17T12:30:29+05:45
+last_modified_at: 2020-03-24T12:30:29+05:45
 ---
 
 This article was updated on March 2019 for iterm2 version 3.2.7.

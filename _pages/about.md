@@ -17,7 +17,7 @@ I enjoy both developing and playing games.
 
 ## Things I may write about in this blog:
 
-- [Zero Investment Startup](https://www.sharmaprakash.com.np/zero_investment_startup/intro/)
+- [Zero Investment Startup](/zero_investment_startup/intro/)
 - Remote Working
 - Rails/Ruby
   1. Test Driven Development(TDD)
