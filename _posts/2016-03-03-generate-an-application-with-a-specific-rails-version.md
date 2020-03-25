@@ -5,20 +5,21 @@ excerpt: Generate an application with a specific Rails version
 tags:
   - rbenv
 comments: true
+classes: wide
 share: true
 toc: true
 date: 2016-03-03T22:13:42+05:45
-last_modified_at: 2017-08-24
+last_modified_at: 2020-04-25
 ---
 
 There are few ways we can create an application with specific rails version.
 
-In this article, we will create a new rails app of version `4.2.1` while our system may have multiple rails versions installed in our system.
+In this article, we will create a new rails app of version `6.0.1` while our system may have multiple rails versions installed in our system.
 
 Here is the list of rails versions that were already installed in my system while writing this article.
 
 ~~~ruby
-rails (5.0.0.beta3, 5.0.0.beta2, 4.2.5.2, 4.2.5.1, 4.2.4, 4.2.1)
+rails (6.0.2.2, 6.0.2.1, 6.0.1)
 ~~~
 
 ## Method 1: Common method
@@ -30,22 +31,25 @@ Let's start with most common and widely documented method:
 ```
 
 **Code example:**
-Let's create an app named `my_app` with rails version `4.2.1`.
+Let's create an app named `my_app` with rails version `6.0.1`.
 
 ```sh
-rails _4.2.1_ new my_app
+gem install rails -v 6.0.1 #only when the gem has not been installed in the desired ruby version you are using
+rails _6.0.1_ new my_app
 ```
 
-Sometimes, this method does not work, I have not yet been able to identify reasons behind it. Please leave comment below if you know or have some assumptions on why this method fails sometimes. Several people have reported this method to be failing sometimes and they had been using latest/other version instead.
-{: .notice}
+> The `_6.0.1_` feature is provided by `RubyGems`. It checks if the first argument(`ARGV` Array) is a version. It then modifies the $LOAD_PATH accordingly. Ruby seeks help from `RubyGems` because it knows where the gems are stored.
+
+Hence this code will fail if you are currently using a different version of Ruby and in that particular version of Ruby that particular version of the gem might has not been installed. Thank you [Shiva Bhusal for pointing out the problem and solution in the comments](http://disq.us/p/1lmdt8x).
+{: .notice--danger}
 
 ## Method 2: Let bundler handle the rails version
 
 In this method we will let `bundler` handle rails version.
 
-Our workflow if we wanted to setup new project with rails version `4.2.1` would be:
+Our workflow if we wanted to setup new project with rails version `6.0.1` would be:
 
-### 2.1: Make new folder and initialise bundler
+### 2.1: Make new folder and initialize bundler
 
 ~~~bash
 # make directory for new rails app
@@ -76,14 +80,14 @@ We have to uncomment rails gem and specify version so that our `Gemfile` looks l
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem "rails", '4.2.1'
+gem "rails", '6.0.1'
 ~~~
 
-Now we need to run `bundle install`. (This would install `rails 4.2.1` if it had not been installed yet).
+Now we need to run `bundle install`. (This would install `rails 6.0.1` if it had not been installed yet).
 
 ### 2.3: Initialise new rails app with specified rails version
 
-At this point we already have minimal project with rails version `4.2.1`.
+At this point we already have minimal project with rails version `6.0.1`.
 
 Now, we can use the rails command line tool with bundle exec to force the version:
 
@@ -93,7 +97,7 @@ bundle exec rails new . --force # --force to overrite curent Gemfile
 
 If you were unaware about rails runtime option `force`, it is used to overwrite files that already exist. Just type `rails` in your commandline and you will see explanation about this command.
 
-Now, we have new rails project with our desired rails version(`4.2.1`).
+Now, we have new rails project with our desired rails version(`6.0.1`).
 
 What do you think about this flow of setting up version specific new rails project? Feel free to comment.
 
