@@ -1,5 +1,5 @@
 ---
-title: How to solve Deployment Failure: `assets:precompile`
+title: How to solve Deployment Failure-`assets:precompile`
 categories:
   - rails
 excerpt: I was trying to deploy rails 6 app on ec2 server using capistrano when precompile failure lead to whole deploymentt failure. I had to uninstall cmdtest and install yarn
